@@ -68,7 +68,7 @@ ul li a {
   background: #eeeeee;
   background: -webkit-linear-gradient(to right, #7c7c7c, #fff);
   background: linear-gradient(to right, #b3b5b6, #fff);
-  color: white;
+  color: #515251;
   text-transform: uppercase;
   font-size: 18px;
 
@@ -78,16 +78,12 @@ ul li a {
 }
 
 ul li a:hover {
-  background: #bac2bd;
-  background: -webkit-linear-gradient(to right, #fff, #078537);
   background: linear-gradient(to right, #fff, #66c50c);
 }
 
 p {
-  color: white;
-  font-family: 'irineu', monospace;
   font-size: 18px;
-  background: #C8C8C8;
+  background: #515251;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
