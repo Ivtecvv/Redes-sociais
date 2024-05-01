@@ -3,8 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 @font-face {
-  font-family:"irineu" ;
+  font-family: "irineu";
   src: url(./FONTE002/Gagalin-Regular.otf);
 }
 
@@ -14,7 +15,9 @@ a {
 
 body {
   font-family: 'irineu';
-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(94,255,94,1) 80%, rgba(54,255,54,1) 100%);
+ /*background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(94, 255, 94, 1) 80%, rgba(54, 255, 54, 1) 100%)*/
+ background-color: #3af853;
+ 
 }
 
 .container {
@@ -24,23 +27,12 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(94,255,94,1) 80%,
   padding: 30px;
 }
 
-.container .logo{
+.container .logo {
   padding: 0;
   border: none;
 }
 
-li .kwai{
-  border: none;
-  border-radius: 0%;
-  width: 80px;
-  height: min-content;
-}
-
-#tiktok {
-  width: auto;
-}
-
-img{
+img {
   width: 100px;
   height: 100px;
   padding: 4px;
@@ -50,14 +42,14 @@ img{
 
 h1 {
   font-size: 32px;
-  margin-top: 24px;
+  margin-top: 4%;
   margin-bottom: 8px;
-  color: #dfe0eb;
+  color: #ffffff;
 }
 
 ul {
   list-style: none;
-  margin: 48px 0;
+  margin: 5% 0;
 }
 
 ul li a {
@@ -69,12 +61,11 @@ ul li a {
   background: -webkit-linear-gradient(to right, #7c7c7c, #fff);
   background: linear-gradient(to right, #b3b5b6, #fff);
   color: #515251;
-  text-transform: uppercase;
   font-size: 18px;
 
-  margin-bottom: 12px;
+  margin-bottom: 2.5%;
   border-radius: 6px;
-  transition: backgroud 400ms;
+  transition: backgroud 500ms;
 }
 
 ul li a:hover {
@@ -91,7 +82,7 @@ p {
 
 .cont {
   display: flex;
-  margin-top: 10px;
+  margin-top: 3%;
   margin-left: 10px;
 }
 
@@ -146,8 +137,8 @@ footer {
   color: hsl(210, 9%, 31%, 31);
 }
 
-footer a {
-  background: #076585;
+footer {
+  background: #666565;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -158,8 +149,7 @@ li .whatsapp,
 .github,
 .instagram,
 .tiktok,
-.kwai
-{
+.kwai {
   max-height: 30px;
   max-width: 30px;
   border: none;
@@ -185,6 +175,7 @@ li:nth-child(3) {
 li:nth-child(4) {
   animation-delay: 1s;
 }
+
 li:nth-child(5) {
   animation-delay: 1.3s;
 }
@@ -236,10 +227,10 @@ li:nth-child(5) {
     width: 60%;
   }
 
-  .container .logo{
-   width: 200px;
-   height: 200px;
-   border: none;
+  .container .logo {
+    width: 200px;
+    height: 200px;
+    border: none;
   }
 
   ul li a {
@@ -248,14 +239,20 @@ li:nth-child(5) {
   }
 
   li .whatsapp,
-.facebook,
-.github,
-.instagram,
-.tiktok,
-.kwai
-{
-  max-height: 60px;
-  max-width: 60px;
-  margin-right: 2%;
-}
+  .facebook,
+  .github,
+  .instagram,
+  .tiktok,
+  .kwai {
+    max-height: 60px;
+    max-width: 60px;
+    margin-right: 2%;
+  }
+
+  p {
+    background: #ffffff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
